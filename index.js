@@ -13,43 +13,109 @@ const questions = [
     {
       type: 'input',
       name: 'description',
-      message: 'Provide a description of the project:'
+      message: 'What is the main purpose of your project?'
+    },
+    {
+      type: 'input',
+      name: 'motivation',
+      message: 'What was your motivation for starting this project?'
+    },
+    {
+      type: 'input',
+      name: 'problem',
+      message: 'What problem does your project solve?'
+    },
+    {
+      type: 'input',
+      name: 'learning',
+      message: 'What did you learn while working on this project?'
     },
     {
       type: 'input',
       name: 'installation',
-      message: 'Provide installation instructions:'
+      message: 'What are the steps to install your project?'
+    },
+    {
+      type: 'input',
+      name: 'requirements',
+      message: 'Are there any system requirements or dependencies?'
+    },
+    {
+      type: 'input',
+      name: 'version',
+      message: 'Are there any specific version requirements for software or libraries?'
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'Provide usage information:'
+      message: 'How is your project used?'
     },
     {
       type: 'input',
-      name: 'contributing',
-      message: 'Provide contribution guidelines:'
+      name: 'commands',
+      message: 'Are there any special commands or steps the user should know about?'
     },
     {
       type: 'input',
-      name: 'tests',
-      message: 'Provide test instructions:'
+      name: 'examples',
+      message: 'Can you provide examples or use cases?'
+    },
+    {
+      type: 'confirm',
+      name: 'screenshots',
+      message: 'Would you like to include screenshots?'
+    },
+    {
+      type: 'input',
+      name: 'credits',
+      message: 'Did you collaborate with others on this project? If so, who are they?'
+    },
+    {
+      type: 'input',
+      name: 'assets',
+      message: 'Did you use any third-party assets or follow any tutorials? Please provide details.'
     },
     {
       type: 'list',
       name: 'license',
-      message: 'Choose a license for your project:',
+      message: 'Which license do you want to apply to your project?',
       choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None']
     },
     {
       type: 'input',
-      name: 'github',
-      message: 'Enter your GitHub username:'
+      name: 'badges',
+      message: 'Are there any specific badges you want to include?'
     },
     {
       type: 'input',
-      name: 'email',
-      message: 'Enter your email address:'
+      name: 'features',
+      message: 'What are the key features of your project?'
+    },
+    {
+      type: 'confirm',
+      name: 'contributing',
+      message: 'Do you want to include guidelines for how others can contribute to your project?'
+    },
+    {
+      type: 'list',
+      name: 'contributionGuidelines',
+      message: 'Would you like to use a standard contribution guideline or write custom guidelines?',
+      choices: ['Standard', 'Custom']
+    },
+    {
+      type: 'confirm',
+      name: 'tests',
+      message: 'Do you have any tests for your project?'
+    },
+    {
+      type: 'input',
+      name: 'testInstructions',
+      message: 'How can these tests be run?'
+    },
+    {
+      type: 'input',
+      name: 'additionalInfo',
+      message: 'Is there any other information you\'d like to include in the README that hasn\'t been covered yet?'
     }
   ];
   
