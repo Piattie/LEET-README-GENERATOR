@@ -48,8 +48,7 @@ This project is licensed under the ${data.license} license. [License Link](${ren
 ## Questions
 For any questions, please contact me at [${data.email}](mailto:${data.email}).
 
-GitHub Profile: [${data.githubUsername}](https://github.com/${data.githubUsername})
-    `;
+GitHub Profile: [${data.githubUsername}](https://github.com/${data.githubUsername})`;
 }
 
 module.exports = generateMarkdown;
