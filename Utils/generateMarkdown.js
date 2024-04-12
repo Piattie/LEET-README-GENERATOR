@@ -34,6 +34,7 @@ ${data.installation}
 
 ## Usage
 ${data.usage}
+
 ${data.includeScreenshots ? `![Screenshot](${data.screenshotPath})` : ''}
 
 ## Contribution

@@ -18,7 +18,8 @@ Clone this repository to your local machine. Navigate to the project directory a
 
 ## Usage
 To use the generator, run 'node index.js' from the terminal in the project directory. Follow the prompts to enter project details, and a README.md file will be generated in the specified directory.
-![Screenshot](assets/screenshots/app_usage.png)
+
+![Screenshot](Assets/images/Screenshot.png)
 
 ## Contribution
 Contributions to enhance the functionality of this README generator are welcome. Please fork the repo, create a new branch, commit your changes, and open a pull request.
